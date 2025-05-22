@@ -8,14 +8,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Lời chúc ngẫu nhiên
   const messages = [
-    "Chúc Vi mãi xinh đẹp và luôn rạng rỡ như ánh mặt trời! ☀️",
-    "Mong rằng mỗi ngày của Vi đều tràn ngập cảm hứng nghệ thuật! 🎨",
+    "Chúc Vi mãi xinh đẹp và luôn rạng rỡ như ánh mặt trời ;) ☀️",
     "Chúc Vi luôn vững bước trên hành trình sáng tạo của mình! 💫",
-    "Mong ước gì thì được nấy, sinh nhật vui vẻ nhé Vi! 🎁",
+    "Mong ước gì thì được nấy(trong khả năng của god :?) sinh nhật vui vẻ nhé Vi! 🎁",
+    "24, 8, 48 có cùng ước là 8",
   ];
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
   const messageEl = document.querySelector(".message");
-  const fullMsg = messageEl.innerHTML + `<br><em>${randomMessage}</em>`;
+  const fullMsg = messageEl.innerHTML + `${randomMessage}`;
   messageEl.innerHTML = "";
 
   // Gõ từng chữ cho lời chúc
